@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #02394A;
+}
+
+#container {
+    max-width: 1045px;
+    min-width: 360px;
+    margin: 8px auto;
+    padding: 16px;
+}
+
+#content {
+    margin-top: 32px;
+    border: 2px solid #494368;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+#photo-area .f1 {
+    background-color: #eee;
+    padding: 8px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    max-width: 175px;
+}
+
+#photo-area .f1 img {
+    max-width: 175px;
+    max-height: 175px;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-nw {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex .f1, .flex-nw .f1 {
+    flex: 1;
+    margin: 4px;
+    text-align: center;
+}
+.clickable, button {
+    cursor: pointer;
+}

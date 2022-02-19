@@ -1,0 +1,15 @@
+.loading h2 {
+    position: relative;
+    z-index: 1;
+    top: 90px;
+    left: 175px;
+}
+
+.loader path {
+    stroke: #85C7F2;
+}
+
+
+.loader circle {
+    fill: #02394A; 
+}
